@@ -1,0 +1,47 @@
+.All-category{
+    width: 100%;
+    height: 170px;
+  
+    margin-top: 25px;
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       a{
+        font-size: 10px;
+        text-decoration: none;
+        font-family: var(--font-family);
+        text-align: center;
+        p{
+            margin-top: 10px;
+            color: #0C0C0C;
+        }
+       }
+  
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        
+      }
+}

@@ -1,0 +1,106 @@
+.increadibles-market {
+  width: 100%;
+  height: 160px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .increadibles-market-center {
+    width: 75%;
+
+    height: inherit;
+    background-color: lightcoral;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    .increadibles-market-right {
+      width: 50%;
+      height: inherit;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 80px;
+      .increadibles-market-right-first {
+        width: 60%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .increadibles-market-right-first-first-img {
+          width: 70px;
+          height: 70px;
+        }
+        .increadibles-market-right-first-second-img {
+          width: 250px;
+          height: 30px;
+        }
+      }
+      .increadibles-market-right-second {
+        width: 50%;
+        height: inherit;
+        .increadibles-market-right-second-border {
+          width: 100px;
+          height: 30px;
+          border-radius: 15px;
+          background-color: #029a49;
+          margin-top: 75px;
+          margin-right: 20px;
+          .increadibles-market-right-second-border-font {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 5px;
+            text-decoration: none;
+            font-size: 13px;
+            color: whitesmoke;
+            font-family: var(--font-family);
+          }
+        }
+      }
+    }
+    .increadibles-market-left {
+      width: 45%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .increadibles-market-left-center {
+      width: 100%;
+      height: inherit;
+      margin-left: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .increadibles-market-left-center-right {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        column-gap: 10px;
+        img {
+          width: 70x;
+          height: 70px;
+          border-radius: 50%;
+          margin-top: 50px;
+        }
+        .discount {
+          position: relative;
+          width: 30px;
+          height: 17px;
+          bottom: 16px;
+          background-color: #d32f2f;
+          border-radius: var(--border-radious);
+          text-align: center;
+        }
+        h6 {
+          font-size: 12px;
+          font-family: var(--font-family);
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+/* fonts */
+@font-face{
+   font-family: iranyekan;
+   src: url(../fonts/iranyekanwebbold.cfb6e26c.woff2);
+}
+@font-face{
+    font-family: nazanin;
+    src: url(../fonts/B_NAZANIN/B-NAZANIN.TTF);
+}
+/* varibales */
+:root{
+    --font-family:iranyekan;
+    --border-radious:8px;
+    --width:80%;
+    --font-persian:nazanin;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    width: 35px;
+    height: 35px;
+    background-color: whitesmoke;
+    border:1px solid lightgray ;
+    border-radius: 50%;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 12px;
+    color: red;
+    font-style: bold;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+    opacity: 0;
+}
+

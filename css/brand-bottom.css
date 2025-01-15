@@ -1,0 +1,36 @@
+.brand-bottom{
+    width: 100%;
+    height: 260px;
+   
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+    .brand-bottom-center{
+        width: 80%;
+        height: inherit;
+     
+        display: flex;
+        column-gap: 15px;
+        .brand-bottom-center-left{
+            width: 50%;
+            height: inherit;
+        
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover ;
+                border-radius: 8px;
+            }
+        }
+        .brand-bottom-center-right{
+            width: 50%;
+            height: inherit;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover ;
+                border-radius: 8px;
+            }
+    }
+}

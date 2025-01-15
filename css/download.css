@@ -1,0 +1,69 @@
+.download {
+  width: 100%;
+  height: 70px;
+
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  .download-center {
+    width: 95%;
+    height: inherit;
+    display: flex;
+    background-color: #3c4b6d;
+    border-radius: 8px;
+    .download-left {
+      width: 50%;
+      height: inherit;
+      display: flex;
+      .download-left-img {
+        width: 85%;
+        height: inherit;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 10px;
+      }
+      .download-left-line {
+        width: 15%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .download-left-line-img {
+          width: 44px;
+          height: 44px;
+          background-color: whitesmoke;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 20px;
+          img {
+            width: 44px;
+            height: 44px;
+          }
+        }
+      }
+    }
+    .download-right {
+      width: 50%;
+      height: inherit;
+
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      p {
+        font-family: var(--font-family);
+        font-size: 20px;
+        color: whitesmoke;
+      }
+
+      img {
+        width: 44px;
+        height: 44px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+    }
+  }
+}

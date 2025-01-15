@@ -1,0 +1,55 @@
+.story {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .story-center {
+    width: var(--width);
+    height: 100%;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper-slide-item {
+        width: inherit;
+        height: inherit;
+        padding-top: 20px;
+        img {
+          width: 74px;
+          height: 74px;
+          border-radius: 50%;
+          display: block;
+          margin: 10px auto;
+          outline: 2px solid purple;
+          outline-offset: 3px;
+        }
+        p {
+          font-family: var(--font-family);
+          font-size: 10px;
+          padding-top: 10px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          --webkit-line-clamp: 1;
+          overflow: hidden;
+          color: #636363;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

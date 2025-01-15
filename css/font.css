@@ -1,0 +1,26 @@
+.font {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  column-gap: 40px;
+
+  p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding-top: 20px;
+    margin-right: 20px;
+  }
+  h6 {
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.font-1 {
+  color: #3f4064;
+}
+.font-2 {
+  color: #958d8b;
+}
