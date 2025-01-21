@@ -9,6 +9,8 @@
   .selected-center {
     width: 80%;
     height: inherit;
+    border: 1px solid lightgray;
+    border-radius: 14px;
 
     .selected-center-top {
       width: 100%;
@@ -48,6 +50,8 @@
 
             display: flex;
             justify-content: center;
+            border-left: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
             img {
               width: 130px;
               height: 130px;
@@ -75,14 +79,12 @@
                 text-align: center;
                 margin-right: 15px;
                 font-weight: bold;
-               
+
                 .selected-center-bottom-top-1-center-number-right-boder-font {
                   font-size: 15px;
                   font-weight: bold;
-                  color: #FFFFFF;
+                  color: #ffffff;
                   font-weight: bolder;
-                  
-                  
                 }
               }
             }
@@ -96,6 +98,7 @@
               color: rgb(63, 58, 58);
               font-weight: bolder;
               font-size: 17px;
+              border-left: 1px solid lightgray;
             }
           }
           .selected-center-bottom-top-1-bottom {
@@ -103,6 +106,7 @@
             height: 20%;
             display: flex;
             justify-content: flex-end;
+            border-left: 1px solid lightgray;
 
             .selected-center-bottom-top-1-bottom-number {
               text-decoration: line-through;
