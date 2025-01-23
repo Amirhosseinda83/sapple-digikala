@@ -5,109 +5,106 @@
 .enter {
   width: 400px;
   height: 550px;
-border-radius: 8px;
-border: 1px solid lightgray;
+  border-radius: 8px;
+  border: 1px solid lightgray;
   margin: 100px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  .enter-center{
+  .enter-center {
     width: 90%;
     height: inherit;
-   
- 
-  .enter-top {
-    width: 100%;
-    height: 100px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-      width: 100px;
-      height: 70px;
-      margin-top: 20px;
-    }
-  }
-  .enter-bottom {
-    width: 100%;
-    height: 400px;
+    .enter-top {
+      width: 100%;
+      height: 100px;
 
-    .enter-bottom-top {
-        width: 70%;
-        height: 100px;
       display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      column-gap: 10px;
-      margin-right: 10px;
-      h2 {
-        font-family: var(--font-family);
-        font-size: 20px;
-        margin-top: 10px;
-  color: black;
-      }
-    }
-    .enter-bottom-center{
-        width: 100%;
-     height: 60px;
-     h3{
-        font-family: var(--font-family);
-        font-size: 14px;
-        color: #526886;
-      
-     }
-     p{
-        font-family: var(--font-family);
-        font-size: 14px;
-        margin-top: 10px;
-        color: #526886;
-     }
-    .enter-bottom-center-input{
-        width: 370px;
-        height:60px;
-        margin-top: 20px;
       justify-content: center;
       align-items: center;
-        border: 1px solid rgb(255, 0, 0);
-        border-radius: 8px;
+      img {
+        width: 100px;
+        height: 70px;
+        margin-top: 20px;
+      }
     }
-    h6{
-        margin-top: 12px;
-        font-family: var(--font-family);
-        font-size: 13px;
-        color: #dc0b5b;
-    }
-    button{
+    .enter-bottom {
+      width: 100%;
+      height: 400px;
+
+      .enter-bottom-top {
+        width: 70%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 10px;
+        margin-right: 10px;
+        h2 {
+          font-family: var(--font-family);
+          font-size: 20px;
+          margin-top: 10px;
+          color: black;
+        }
+      }
+      .enter-bottom-center {
         width: 100%;
         height: 60px;
-        background-color: #EF4056;
-        color: whitesmoke;
-        font-family: var(--font-family);
-        cursor: pointer;
-        margin-top: 30px;
-        border: 1px solid red;
-        border-radius: 7px;
-    }
-    .enter-bottom-font{
-        font-family: var(--font-family);
-        font-size: 11px;
-        margin-top: 20px;
-        a{
-            text-decoration: none;
-            color: #52AEDA;
+        h3 {
+          font-family: var(--font-family);
+          font-size: 14px;
+          color: #526886;
         }
+        p {
+          font-family: var(--font-family);
+          font-size: 14px;
+          margin-top: 10px;
+          color: #526886;
+        }
+        .enter-bottom-center-input {
+          width: 350px;
+          height: 40px;
+          margin-top: 20px;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid rgb(57, 57, 146);
+          border-radius: 8px;
+          outline: unset;
+        }
+        h6 {
+          margin-top: 12px;
+          font-family: var(--font-family);
+          font-size: 13px;
+          color: #dc0b5b;
+        }
+        button {
+          width: 100%;
+          height: 60px;
+          background-color: #ef4056;
+          color: whitesmoke;
+          font-family: var(--font-family);
+          cursor: pointer;
+          margin-top: 30px;
+          border: 1px solid red;
+          border-radius: 7px;
+        }
+        .enter-bottom-font {
+          font-family: var(--font-family);
+          font-size: 11px;
+          margin-top: 20px;
+          a {
+            text-decoration: none;
+            color: #52aeda;
+          }
+        }
+      }
     }
-    
-    
+
+    .Bottom-top-divider {
+      width: 3px;
+      height: 20px;
+      background-color: black;
+      margin-top: 10px;
     }
   }
-
-.Bottom-top-divider {
-  width: 3px;
-  height: 20px;
-  background-color: black;
-  margin-top: 10px;
-}
-}
 }
